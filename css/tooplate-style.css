@@ -114,21 +114,13 @@ strong {
   position: relative;
 }
 
-.animated-item {
-  /* color: #fdc563; */
-}
 
 .animated-item {
   font-size: 20px;
   line-height: inherit;
   display: block;
   opacity: 1;
-  /* overflow: hidden; */
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  left: 0; */
-  /* animation: BottomTotop 6s linear infinite 0s; */
+  color: rgb(170, 145, 6);
 }
 .animated-item:nth-child(2n + 2) {
   animation-delay: 2s;
@@ -186,8 +178,10 @@ strong {
   padding-bottom: 0;
 }
 
-.navbar-brand {
+.nav-link {
+  /* border: 2px solid white; */
   font-weight: bold;
+  color: white;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -375,9 +369,9 @@ strong {
 .service-card {
   position: relative;
   min-height: 230px;
-  border: 1px solid #dee2e6;
+  border: 3px solid #dee2e6;
+  border-radius: 2rem;
   overflow: hidden;
-  border-radius: 3px;
 }
 
 .service-card .body {
@@ -695,17 +689,11 @@ Most Popular Style
   nav a{
     border-radius: 40px;
   }
-  .animated-info {
-    /* min-width: 250px; */
-  }
   .animated-item {
     margin-top: 20px;
     font-size: 26px;
   }
 
-  .custom-btn-group {
-    /* text-align: center; */
-  }
 
   .container{
     margin-left: 5vw !important ;
